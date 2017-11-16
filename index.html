@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width"/>
+	<link rel="stylesheet" type="text/css" href="lwf-city.css">
+	<script type="text/javascript" src="citydata.js"></script>
+	<script type="text/javascript" src="lwf-city.js"></script>
+	<title>商城城市列表</title>
+</head>
+<body>
+	<div class="city-lwf" city-filter="city">
+		<!-- <div class="lwf-city">
+			<div class="thisCity">广西 桂林 平乐县</div>
+			<div class="cityMain">
+				<ul class="cityTab">
+					<li class="province"  class="choseThis">广西</li>
+					<li class="city">桂林</li>
+					<li class="county">平乐县</li>
+				</ul>
+				<div class="cityTabContent">
+					<ul class="provinceContent" class="cityShow">
+						<li><a href="javascript:;">广西</a></li>
+					</ul>
+					<ul class="cityContent">
+						<li><a href="javascript:;">广西2</a></li>
+					</ul>
+					<ul class="countyContent">
+						<li><a href="javascript:;">广西3</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> -->
+	</div>	
+</body>
+</html>
+<<script>
+	lwfCity.init({
+		cityFinish:function(ret){
+			alert(ret)
+		}
+	})
+</script>
