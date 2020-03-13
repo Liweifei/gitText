@@ -1,4 +1,4 @@
-console.log("zz");
+console.log("from local");
 
 var viewphoto={
 	reset:function(){
