@@ -1,3 +1,5 @@
+console.log("zz");
+
 var viewphoto={
 	reset:function(){
 		this.setWidth();/*根据li数设置宽度*/
