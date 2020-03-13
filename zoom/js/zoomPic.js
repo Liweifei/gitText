@@ -114,3 +114,4 @@ var viewphoto={
 	}
 }
 console.log("aab")
+console.log("merge from origin")
