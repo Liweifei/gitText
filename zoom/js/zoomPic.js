@@ -1,4 +1,4 @@
-console.log("zz");
+console.log("ccc");
 
 var viewphoto={
 	reset:function(){
