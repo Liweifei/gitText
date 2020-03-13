@@ -114,3 +114,4 @@ var viewphoto={
 	}
 }
 console.log("dsfasfdsdfdsf")
+console.log("merge from origin")
