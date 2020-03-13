@@ -113,4 +113,4 @@ var viewphoto={
 		}
 	}
 }
-console.log("dsfasfdsdfdsf")
+console.log("aab")
