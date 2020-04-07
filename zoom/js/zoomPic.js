@@ -111,5 +111,7 @@ var viewphoto={
 		document.getElementById("zoomPicBox").onmouseleave=function(event){/*移动*/
 			viewphoto.showType("none")
 		}
+		console.log("git test aab");
+		
 	}
 }
