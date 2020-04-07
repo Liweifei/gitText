@@ -111,3 +111,4 @@ var viewphoto={
 		}
 	}
 }
+console.log("git change test");
