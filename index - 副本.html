@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>商城图片放大镜</title>
+        <link rel="stylesheet" href="css/zoomPic.css">
+		<script type="text/javascript" src="js/zoomPic.js"></script>
+    </head>
+    <body>
+		<h2 style="text-align: center;">branch for aab</h2>
+    	<!-- 注意布局的时候滑动范围盒子大小与范围的比例要和变大之后的=>盒子（可视区域）与放大后图片的大小相等 -->
+		<div class="info" style="margin: 50px 0 100px 50px;">
+			<div class="shopsPic">
+				<div class="zoomPicBox" id="zoomPicBox">
+					<img src="./images/11.jpg" alt="" id="zoomPic">
+					<div class="range" id="range"></div>
+				</div>
+				<div class="picListBox">
+					<span class="arrowLeft" id="arrowLeft"></span>
+					<div class="picListRelative">
+						<ul id="picList" data-num="0">
+							<li class="thisPic">
+								<img src="./images/11.jpg" alt="">
+							</li>
+							<li>
+								<img src="./images/shopsDetailPic1.png" alt="">
+							</li>
+							<li>
+								<img src="./images/shopsDetailPic1.png" alt="">
+							</li>
+							<li>
+								<img src="./images/g01.png" alt="">
+							</li>
+							<li>
+								<img src="./images/shopsDetailPic1.png" alt="">
+							</li>
+							<li>
+								<img src="./images/shopsDetailPic1.png" alt="">
+							</li>
+						</ul>
+					</div>
+					<span class="arrowRight" id="arrowRight"></span>
+				</div>
+			</div>
+			<div id="hadZoomPicBox">
+				<img src="./images/11.jpg" alt="" id="hadZoomPic">
+			</div>
+		</div>
+    </body>
+</html>
+<script>
+	viewphoto.reset()
+</script>
